@@ -1,0 +1,27 @@
+body{
+    font-size: 18px;
+    font-family: arial;
+    background: white;
+    color: black;
+}
+
+header{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+.songtitle{
+    text-align:center;
+}
+
+.video{
+    text-align:center;
+}
+
+p{
+    text-align:center;
+}
+
+

@@ -1,0 +1,30 @@
+{
+  "name": "spotitube-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve --open --watch",
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtw2001/spotitube-final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtw2001/spotitube-final/issues"
+  },
+  "homepage": "https://github.com/mtw2001/spotitube-final#readme",
+  "dependencies": {
+    "jquery": "^3.6.4"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@web/dev-server": "^0.1.36",
+    "rollup": "^2.79.1",
+    "rollup-plugin-copy": "^3.4.0"
+  }
+}
