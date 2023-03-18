@@ -8,7 +8,7 @@ const searchId = '45be702f0fcb74fa0';
 
 // URLS
 const baseurl="https://api.spotify.com/v1/";
-const redirect_uri = "mtw2001.github.io/spotitube-final";
+const redirect_uri = "http://mtw2001.github.io/spotitube-final";
 
 // CURRENT SPOTIFY TOKEN
 var access_token = null;
