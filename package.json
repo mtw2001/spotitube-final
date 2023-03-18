@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "web-dev-server --node-resolve --open --watch",
-    "build": "rollup --config"
+    "build": "rollup --config",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@web/dev-server": "^0.1.36",
+    "gh-pages": "^5.0.0",
     "rollup": "^2.79.1",
     "rollup-plugin-copy": "^3.4.0"
   }
